@@ -4,13 +4,13 @@ Servidor RESTful construido con **Node.js**, **Express** y **MongoDB/Mongoose**.
 
 ---
 
-## 📋 Descripción
+## Descripción
 
 El backend expone una API para gestionar enlaces y etiquetas. Permite crear, leer, actualizar y eliminar recursos, así como agregar comentarios y votos a cada enlace.
 
 ---
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 | Herramienta | Versión | Uso |
 |---|---|---|
@@ -24,7 +24,7 @@ El backend expone una API para gestionar enlaces y etiquetas. Permite crear, lee
 
 ---
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 backend/
@@ -45,7 +45,7 @@ backend/
 
 ---
 
-## ⚙️ Instalación y configuración
+## Instalación y configuración
 
 ### 1. Clonar el repositorio
 
@@ -83,7 +83,7 @@ El servidor quedará disponible en `http://localhost:3000`.
 
 ---
 
-## 🔌 Endpoints de la API
+## Endpoints de la API
 
 ### Base URL
 
@@ -93,7 +93,7 @@ http://localhost:3000
 
 ---
 
-### 📖 Rutas de lectura — `/app`
+### Rutas de lectura — `/app`
 
 | Método | Endpoint | Descripción |
 |---|---|---|
@@ -104,7 +104,7 @@ http://localhost:3000
 
 ---
 
-### ✏️ Rutas de escritura — `/api`
+### Rutas de escritura — `/api`
 
 | Método | Endpoint | Descripción | Body |
 |---|---|---|---|
@@ -117,7 +117,7 @@ http://localhost:3000
 
 ---
 
-## 🗄️ Modelos de datos
+## Modelos de datos
 
 ### Link
 
@@ -147,7 +147,7 @@ http://localhost:3000
 
 ---
 
-## 📌 Notas
+## Notas
 
 - El campo `tag` en la creación de un enlace acepta el **nombre** de la etiqueta como string. El backend busca si ya existe; si no, la crea automáticamente.
 - Los comentarios tienen un límite de **100 caracteres** por entrada.
@@ -155,4 +155,6 @@ http://localhost:3000
 
 ---
 
-*© Todos los derechos reservados — Victor Nunez*
+## Autor
+
+Victor Nuñez
